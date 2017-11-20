@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dogui App</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="login">Ingresar</string>
+    <string name="user">Usuario</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="userRegister">Registrar Usuario</string>
+    <string name="register">Registrar</string>
+    <string name="placeUser">Ingresar Usuario</string>
+    <string name="placePassword">Ingresar Contraseña</string>
+    <string name="successUser">Usuario correctamente registrado</string>
+    <string name="incorrectCredentials">Usuario o Password Incorrecto</string>
+    <string name="breed">Raza</string>
+    <string name="see">Ver</string>
+</resources>

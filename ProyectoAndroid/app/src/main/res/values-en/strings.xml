@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogui App</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Sign In</string>
+    <string name="user">User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="userRegister">User Registration</string>
+    <string name="register">Register</string>
+    <string name="placeUser">Place User</string>
+    <string name="placePassword">Place Password</string>
+    <string name="successUser">Register Successful</string>
+    <string name="incorrectCredentials">User o Password wrong</string>
+    <string name="breed">Breed</string>
+    <string name="see">See</string>
+</resources>
