@@ -16,6 +16,7 @@ public class SessionManager {
     private Context _context;
     private int PRIVATE_MODE = 0;
     private String KEY_USER = "user";
+    private String KEY_DOG = "dogBreed";
 
     public SessionManager(Context context) {
         _context = context;
@@ -30,10 +31,22 @@ public class SessionManager {
         editor.commit();
     }
 
+    public void saveDog(Dog dog) {
+        Gson gson = new Gson();
+        String dog_json = gson.toJson(dog);
+        editor.putString(KEY_DOG, dog_json);
+        editor.commit();
+    }
+
     public User getUser() {
         Gson gson = new Gson();
         User u = gson.fromJson(pref.getString(KEY_USER,null), User.class);
         return u;
     }
 
+    public Dog getDog() {
+        Gson gson = new Gson();
+        Dog dog = gson.fromJson(pref.getString(KEY_DOG,null), Dog.class);
+        return dog;
+    }
 }

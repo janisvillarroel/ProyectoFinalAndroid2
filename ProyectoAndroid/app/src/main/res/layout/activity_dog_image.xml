@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="afinal.com.proyectoandroid.DogImage">
+    <TextView
+        android:id="@+id/textBreed"
+        android:layout_width="269dp"
+        android:layout_height="69dp"
+        android:layout_gravity="left"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        android:id="@+id/circ"
+        app:civ_shadow_color="#8BC34A"/>
+</LinearLayout>

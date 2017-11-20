@@ -15,4 +15,7 @@ public interface EndPointApi {
 
     @GET(ConstantRestApi.URL_DOGS)
     Call<ArrayList<Dog>> getList();
+
+    @GET(ConstantRestApi.URL_DOGS_IMAGE)
+    Call<String> getImage(@Path("breed") String breed);
 }

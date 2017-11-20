@@ -34,4 +34,10 @@ public class RestApiAdapter{
         gsonBuilder.registerTypeAdapter(ArrayList.class, new DogDeserializer());
         return gsonBuilder.create();
     }
+
+    public Gson buildGsonDeserializedDogUrl() {
+        GsonBuilder gsonBuilder = new GsonBuilder();
+        gsonBuilder.registerTypeAdapter(String.class, new DogImageDeserializer());
+        return gsonBuilder.create();
+    }
 }
